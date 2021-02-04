@@ -21,9 +21,11 @@ body {
   margin: 15px; /* margin: 20px was off */
   /* float: left; */
   height: 60px;
-  width: auto; /* correct proportions to specified height */
-  border-radius: 50%; /* makes it a circle */
+  width: auto; /* correct proportions to specified height */ 
 }
+
+
+
 
 
 
@@ -37,6 +39,20 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.pricing{
+  height: 530px;
+}
+
+.border{
+  height: 520px;
+}
+
+.bottom-center { 
+  bottom: 5px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
 
 .border-2 {
   border-width: 2px; }
@@ -1889,7 +1905,7 @@ body:after {
   .pricing .price .currency {
     position: relative;
     top: -1em;
-    font-size: 20px; }
+    font-size: 40px; }
   .pricing .price .number {
     font-size: 40px;
     color: #000;
