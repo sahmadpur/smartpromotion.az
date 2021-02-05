@@ -1905,7 +1905,8 @@ body:after {
   .pricing .price .currency {
     position: relative;
     top: -1em;
-    font-size: 40px; }
+    font-size: 20px; }
+
   .pricing .price .number {
     font-size: 40px;
     color: #000;
